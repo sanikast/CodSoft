@@ -1,0 +1,398 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+section {
+  height: 100vh;
+}
+
+.header {
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 10%;
+  background: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 25px;
+  color: #031540;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.navbar a {
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 35px;
+  transition: 0.3s;
+}
+
+.navnar a:hover {
+  color: #00abf0;
+}
+
+.about {
+  height: 100vh;
+  background: linear-gradient(-90deg, #031540 65%, #fff 35%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10%;
+}
+
+.about-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 400px;
+  background: #031540;
+  border-radius: 50%;
+  border: 25px solid #fff;
+  outline: 15px solid #031540;
+}
+
+.about-img img {
+  position: relative;
+  max-width: 250px;
+}
+
+.about-content {
+  max-width: 500px;
+  color: #fff;
+  text-align: right;
+}
+
+.about-content h1 {
+  font-size: 55px;
+  line-height: 1.2;
+}
+
+.about-content h3 {
+  font-size: 40px;
+  color: #00abf0;
+  -webkit-text-stroke: 0.5px #fff;
+}
+
+.about-content p {
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.about-icons {
+  margin: 25px 0 40px;
+}
+
+.about-icons a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  font-size: 20px;
+  color: #00abf0;
+  text-decoration: none;
+  margin-left: 12px;
+}
+
+.about-icons a:hover {
+  background: #00abf0;
+  color: #fff;
+  border-color: #00abf0;
+  box-shadow: 0 0 10px #00abf0;
+}
+
+.btn {
+  padding: 12px 35px;
+  background: #00abf0;
+  border-radius: 40px;
+  font-size: 17px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 1px;
+  box-shadow: 0 0 10px #00abf0;
+}
+
+.btn:hover {
+  box-shadow: none;
+}
+
+.skills,
+.projects,
+.contact {
+  font-size: 40px;
+  color: #00abf0;
+  -webkit-text-stroke: 0.5px #fff;
+  margin-top: 40px;
+  margin-bottom: 80px;
+  padding: 10px 20px 10px 20px;
+}
+
+.contact {
+  margin-bottom: 2px;
+  padding-bottom: 0;
+}
+
+.skills-divide {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.skills-list {
+  border: 2px solid #5b5957;
+  border-radius: 10px;
+  padding: 30px 50px;
+  line-height: 20px;
+  font-size: 18px;
+  background-color: #f8f7f7;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.skills-list p {
+  margin-bottom: 4px;
+}
+
+.skills-heading {
+  font-size: 30px;
+  padding-bottom: 20px;
+  color: #172b4d;
+}
+
+.projects-list {
+  display: flex;
+  height: 250px;
+  justify-content: space-between;
+}
+
+.card {
+  border: 2px solid black;
+  border-radius: 20px;
+  margin-right: 30px;
+  margin-left: 30px;
+  background-color: #d1d1d3;
+}
+
+.card-paragraph {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  padding-left: 15px;
+  width: 90%;
+}
+
+.card-header {
+  font-family: "Crete Round", serif;
+  font-weight: 500;
+  font-size: 32px;
+  width: 70%;
+  padding-left: 15px;
+  margin-top: 20px;
+  color: black;
+}
+
+.projects-list {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+footer p {
+  width: 327px;
+  height: 216px;
+  left: 0;
+  top: 1px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 33px;
+  line-height: 44px;
+  text-align: center;
+  color: #172b4d;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 150px 24px 73px 24px;
+}
+
+form button {
+  margin: 15px;
+  background: #172b4d;
+  color: #fff;
+  border: none;
+  width: 131px;
+  height: 48px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  margin-bottom: 124px;
+  cursor: pointer;
+}
+
+form button:hover {
+  border: 1px solid black;
+  color: #1c1a19;
+  background: #fff;
+}
+
+form button:active {
+  color: #f4f1f0;
+  background-color: #e05304;
+  transform: translateY(4px);
+}
+
+form button:disabled {
+  background-color: #f4f1f0;
+  color: #5b5957;
+}
+
+.sociallist li {
+  padding: 9px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  order: 4;
+}
+
+input {
+  width: 90%;
+  height: 52px;
+  margin: 5px;
+  background-color: #fff;
+  border: 2px solid #dfdfe0;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+textarea {
+  width: 90%;
+  padding: 60px;
+  padding-top: 22px;
+  margin: 5px;
+  background-color: #fff;
+  border: 2px solid #dfdfe0;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+form input {
+  border: none;
+  border-bottom: 1px solid #dbd8d7;
+  padding-left: 15px;
+}
+
+form textarea {
+  border: none;
+  background-color: #fbf8f7;
+  padding-left: 15px;
+  height: 114px;
+  width: 90%;
+}
+
+.card-paragraph {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+  width: 90%;
+}
+
+.card-header,
+.card-paragraph,
+.tech-ul {
+  padding-left: 5%;
+  padding-bottom: 3%;
+}
+
+.card {
+  width: 100%;
+  z-index: 2;
+}
+
+.hover-effect {
+  position: absolute;
+  display: none;
+  z-index: 3;
+}
+
+.mydivouter :hover .hover-effect {
+  display: block;
+}
+
+.cards {
+  display: grid;
+  grid-template-rows: 435px 435px;
+  grid-template-columns: 33% 33% 33%;
+  grid-gap: 20px;
+}
+
+.works h2 {
+  padding-top: 0;
+}
+
+.recent-works-line {
+  display: block;
+  width: 100%;
+  background: #212121;
+}
+
+.last-hr {
+  display: block;
+  margin: 10%;
+}
+
+button {
+  width: 100%;
+}
+
+.works .vector {
+  display: none;
+}
+
+.line {
+  padding-top: 4%;
+}
+
+footer p {
+  color: #262626;
+  margin-top: 0;
+  text-align: left;
+  font-size: 32px;
+}
+
+.divider {
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  align-items: start;
+}

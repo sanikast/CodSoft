@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>Task 2-Portfolio</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="logo">Sanika S Tuppad</a>
+      <nav class="navbar">
+        <a href="#abt">About</a>
+        <a href="#skls">Skills</a>
+        <a href="#prj">Projects</a>
+        <a href="Sanika Resume.pdf">Resume</a>
+        <a href="#ctc">Contact</a>
+      </nav>
+    </header>
+
+    <section id="abt" class="about">
+      <div class="about-img"><img src="avatar2.jpg" /></div>
+      <div class="about-content">
+        <h1>Hi, I am Sanika S T</h1>
+        <h3>Frontend Developer</h3>
+        <p>
+          I love learning new technologies and developing creative and user
+          friendly web pages
+        </p>
+        <div class="about-icons">
+          <a href="#"><i class="bx bxl-meta"></i></a>
+          <a href="#"><i class="bx bxl-instagram"></i></a>
+          <a href="#"><i class="bx bxl-linkedin"></i></a>
+          <a href="#"><i class="bx bxl-twitter"></i></a>
+        </div>
+        <a href="Sanika Resume.pdf" class="btn">Download Resume</a>
+      </div>
+    </section>
+
+    <section id="skls" class="Skills">
+      <p class="skills">Skills</p>
+      <div class="skills-divide">
+        <div class="skills-list">
+          <p class="skills-heading">Technical Skills</p>
+          <p>C, C++, Java, Python</p>
+          <p>HTML, CSS</p>
+          <p>JavaScript, TypeScript</p>
+          <p>React</p>
+          <p>Figma</p>
+          <p>MySQL</p>
+          <p>PHP</p>
+        </div>
+        <div class="skills-list">
+          <p class="skills-heading">Soft Skills</p>
+          <p>Time management</p>
+          <p>Adaptability</p>
+          <p>Hardworking</p>
+          <p>Negotiating Skills</p>
+          <p>Quick learner</p>
+          <p>Willingness to learn</p>
+        </div>
+        <div class="skills-list">
+          <p class="skills-heading">Languages known</p>
+          <p>English</p>
+          <p>Hindi</p>
+          <p>Kannada</p>
+          <p>Tamil</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="prj" class="Projects">
+      <p class="projects">Projects</p>
+
+      <div class="projects-list">
+        <div class="card">
+          <p class="card-header">Responsive website for a fictional company</p>
+          <p class="card-paragraph">Used HTML, CSS and basics of JavaScript</p>
+        </div>
+        <div class="card">
+          <p class="card-header">
+            Currently working on hostel management project
+          </p>
+          <p class="card-paragraph">Real implementation on campus hostel</p>
+        </div>
+        <div class="card">
+          <p class="card-header">DBMS Project on Library management</p>
+          <p class="card-paragraph">Used MySQL, PHP</p>
+        </div>
+      </div>
+    </section>
+
+    <footer id="ctc" class="Contact">
+      <p class="contact">Contact</p>
+      <div class="divider">
+        <p>
+          I'm always interested in hearing about new projects, so if you'd like
+          to chat please get in touch.
+        </p>
+        <form id="form" action="https://formspree.io/f/myyodjdo" method="post">
+          <input
+            type="text"
+            placeholder="Full name"
+            name="Full name"
+            id="fName"
+            maxlength="30"
+            required
+          />
+          <input
+            type="email"
+            placeholder="Email address"
+            name="email"
+            id="email"
+            required
+          />
+          <textarea
+            cols="30"
+            rows="10"
+            placeholder="Enter text here"
+            maxlength="500"
+            required
+            id="message"
+            name="Message"
+          ></textarea>
+          <button type="submit">Get in touch</button>
+        </form>
+      </div>
+    </footer>
+  </body>
+</html>
